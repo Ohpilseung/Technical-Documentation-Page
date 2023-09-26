@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>This documentation introduces readers to the basic concepts of HTML and CSS. Navigate the page by clicking on any of the topics below.</header>
+        <ul>
+          <li><a class="nav-link" href="#HTML_syntax_and_structure">HTML syntax and structure</a></li>
+          <li><a class="nav-link" href="#HTML_elements">HTML elements</a></li>
+          <li><a class="nav-link" href="#HTML_ids_and_classes">HTML ids and classes</a></li>
+          <li><a class="nav-link"  href="#CSS_syntax_and_structure">CSS syntax and structure</a></li>
+          <li><a class="nav-link" href="#CSS_types_of_selectors">CSS types of selectors</a></li>
+        </ul>
+      </nav>
+      <div class="section-group">
+        <section class="main-section" id="HTML_syntax_and_structure">
+          <header id="topic">HTML syntax and structure</header>
+          <p>Html is a programming language that is used to develop webites.</p>
+          <p>All html codes begin with a <code>!DOCTYPE html</code> to indicate which version of html is been used.</p>
+          <p>After this, all other html code is nested within the <code>html</code> opening and closing tags.</p>
+          <p>Inside the html element, the code has a <code>head</code> and <code>body</code> elements.</p>
+          <p>The <code>head</code> element houses what we call the metadata such as the characters to use, the title to appear on the browser tab, the fonts to render the page and a link to a css file.</p>
+          <p>The <code>body</code> element contains the actual programing for rendering the website.</p>
+          <p>The html structure follows this format:</p>
+          <ol>
+            <li><code>< !DOCTYPE html ></code></li>
+            <li><code>< html></code></li>
+            <li><code>< head></code></li>
+            <li><code>< head/></code></li>
+            <li><code>< body></code></li>
+            <li><code>< body/></code></li>
+            <li><code>< html/></code></li>
+          </ol>
+                  </section>
+        <section class="main-section" id="HTML_elements">
+          <header id="topic">HTML elements</header>
+          <p>Html elements contain the starting tag, their content and a closing tag.</p>
+          <p>The tags are usually used to indicate what is to be rendered in the browser. It could be a text, button, input, image or a table.</p>
+          <p>The elements usually have an opening <code>< tag ></code> tag and a closing <code>< tag /></code> tag. However, some elements are self-closing and would not have inidividual opening and closing tags <code>< tag /></code>.</p>
+          <p>Examples of html elements include:</p>
+          <ul>
+            <li><code>h1</code></li>
+            <li><code>p</code></li>
+            <li><code>img</code></li>
+            <li><code>button</code></li>
+          </ul>
+        </section>
+        <section class="main-section"   id="HTML_ids_and_classes">
+          <header id="topic">HTML ids and classes</header id="topic">
+          <p> Ids and classes are all used to mark or target elements for specific modification in css</p>
+          <p> Ids are more specific and can only be used to target only one specific element which does not reappear anywhere along the html.</p>
+          <p>The general way of targeting an element with an id is to include <code>id="id-name"</code> in the opening tag of the element.</p>
+          <p> Classes on the other hand are used to target several elements for a specific styling. They are less specific compared to ids.</p>
+          <p> They can target an element by including <code>class="class-name"</code> in the opening tag of that element.</p>
+        </section>
+        <section class="main-section" id="CSS_syntax_and_structure">
+          <header id="topic">CSS syntax and structure</header>
+          <p>CSS is also a programing language that is used to style html codes. It is basically used to style html elements.</p>
+          <p>CSS consists of selectors that are used to select specific elements, classes and ids for styling</p>
+          <p>CSS properties are also used to specify which portions of the html elements for styling while the values inidicate which style to apply</p>
+          <p>A typical CSS code consist of a selector with a curly brackets <code>css-selector {}</code>. Inside this curly bracket is the <code>css-property :</code> and the <code>value;</code>.</p>
+        </section>
+        <section class="main-section" id="CSS_types_of_selectors">
+          <header id="topic">CSS types of selectors</header>
+          <p>There are several types of css selectors. These include:</p>
+          <ul>
+            <li><code>element-selectors</code></li>
+            <li><code>#id-selectors</code></li>
+            <li><code>.class-selectors</code></li>
+            <li>and others.</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
