@@ -28,7 +28,7 @@ body {
   margin: none;
   padding: 20px;
   position: fixed;
-  top: 0px;
+  top: 20px;
   font-size: 1.2rem;
   font-weight: bold;
   color: #f8f9fa;
@@ -148,6 +148,7 @@ body {
 }
 
 #navbar header {
+  padding-top: 20px;
   line-height: 1.7rem;
 }
 
